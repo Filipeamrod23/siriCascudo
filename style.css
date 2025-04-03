@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Spongeboy';
+    src: url('./Spongeboy\ Me\ Bob.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --vermelho: #ff343e;
+    --azul: #1e90ff;
+    --verde: #4b9f4d;
+    --marrom: #6f4f37;
+    --amarelo: #f7e02e;
+}
+
+body{
+    background: url('./spongeBOB_fundo.webp');
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    background-color:  var(--amarelo);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    align-items: center;
+}
+img{
+    width: 80px;
+
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    color: rgb(255, 4, 4);
+    font-weight: bolder;
+    font-family: 'Spongeboy', sans-serif;
+    font-size: 20px;
+}
